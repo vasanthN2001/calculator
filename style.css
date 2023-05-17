@@ -1,0 +1,79 @@
+.calculator {
+    max-inline-size: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+
+
+
+}
+
+.cal_output {
+    padding: 30px;
+    background-color: antiquewhite;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+#display {
+    background-color: antiquewhite;
+    width: 250px;
+    height: 80px;
+    font-size: 40;
+    text-align: end;
+    border: none;
+    outline: none;
+}
+
+.cal_keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    cursor: pointer;
+    padding: 10px;
+    gap: 10px;
+
+
+
+}
+
+.btn {
+    background-color: #F7F2F6;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0.5rem;
+    inline-size: 60px;
+    block-size: 60px;
+
+
+}
+
+.btnop {
+    background-color: #EFDFCF;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0.5rem;
+    inline-size: 60px;
+    block-size: 60px;
+
+}
+
+.btns {
+    background-color: #FADDBB;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0.5rem;
+    inline-size: 60px;
+    block-size: 60px;
+}
